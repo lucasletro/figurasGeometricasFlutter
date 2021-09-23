@@ -11,7 +11,7 @@ class _CirculoState extends State<Circulo> {
 
 
   void _resetFields(){
-    raioController.text = " ";
+    raioController.text = "";
     setState(() {
       _infoText = "Informe seus dados!";
     });
