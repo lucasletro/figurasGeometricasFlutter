@@ -6,6 +6,7 @@ import 'Triangulo.dart';
 void main() {
   runApp(MaterialApp(
     home: Home(),
+    debugShowCheckedModeBanner: false,
   ));
 }
 
